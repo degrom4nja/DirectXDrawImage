@@ -105,7 +105,7 @@ namespace DirectXDraw {
 
         public void Draw(SharpDX.Direct2D1.Bitmap image, Size clientSize) {
             renderTarget?.BeginDraw();
-            renderTarget?.Clear(SharpDX.Color.FromBgra(0xff202020));
+            renderTarget?.Clear(SharpDX.Color.FromBgra(0xff222222));
 
             float left = (clientSize.Width - image.Size.Width) / 2.0f;
             float top = (clientSize.Height - image.Size.Height) / 2.0f;
